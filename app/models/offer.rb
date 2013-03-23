@@ -6,7 +6,7 @@ class Offer < ActiveRecord::Base
    	 :shopname => self.shopname,
    	 :offer =>self.offer,
    	 :location => self.location,
-   	 :imageUrl => self.imageUrl
     }
+  end
 
 end
